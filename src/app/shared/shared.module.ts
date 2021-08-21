@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BreadcrumsComponent } from './breadcrums/breadcrums.component';
 import { SirebarComponent } from './sirebar/sirebar.component';
 import { HeaderComponent } from './header/header.component';
+import { RouterLink, RouterModule } from '@angular/router';
 
 
 
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class SharedModule { }
