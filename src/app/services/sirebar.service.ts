@@ -14,7 +14,8 @@ export class SirebarService {
         subMenu:[
           {titulo:'Main',url:''},
           {titulo:'Progress',url:'progress'},
-          {titulo:'Grafica',url:'grafica1'}
+          {titulo:'Grafica',url:'grafica1'},
+          {titulo:'Promesas',url:'promesa'}
         ]
       }
     ];
